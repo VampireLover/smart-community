@@ -1,0 +1,7 @@
+server:
+  port: 9030
+spring:
+  application:
+    name: cart-center
+  profiles:
+    active: dev

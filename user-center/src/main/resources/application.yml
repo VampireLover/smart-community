@@ -1,0 +1,21 @@
+server:
+  port: 9020
+spring:
+  application:
+    name: user-center
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 112.74.42.138:8848
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    active: dev
+dubbo:
+  registry:
+    address: nacos://112.74.42.138:8848
+  scan:
+    base-packages: com.xiaojun.usercenter.service.impl
+  protocol:
+    name: dubbo
+    port: -1

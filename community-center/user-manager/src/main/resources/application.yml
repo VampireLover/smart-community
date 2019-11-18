@@ -1,0 +1,21 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: user-manager
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 112.74.42.138:8848
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    active: dev
+dubbo:
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://112.74.42.138:8848
+  cloud:
+    subscribed-services: building-manager

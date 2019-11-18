@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/community-center/building-manager/building-manager.iml" filepath="$PROJECT_DIR$/community-center/building-manager/building-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart-center/cart-center.iml" filepath="$PROJECT_DIR$/cart-center/cart-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/community-center/community-center.iml" filepath="$PROJECT_DIR$/community-center/community-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/community-center/community-manager/community-manager.iml" filepath="$PROJECT_DIR$/community-center/community-manager/community-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart-community.iml" filepath="$PROJECT_DIR$/smart-community.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-center/user-center.iml" filepath="$PROJECT_DIR$/user-center/user-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/community-center/user-manager/user-manager.iml" filepath="$PROJECT_DIR$/community-center/user-manager/user-manager.iml" />
+    </modules>
+  </component>
+</project>

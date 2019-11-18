@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="javaMapperPackage" value="com.xiaojun.cartcenter.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/cart-center/src/main/java" />
+        <option name="javaModelPackage" value="com.xiaojun.cartcenter.domain.entity" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/cart-center/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="cart-center" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="building-manager">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.xiaojun.buildingmanager.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/community-center/building-manager/src/main/java" />
+                  <option name="javaModelPacakge" value="com.xiaojun.buildingmanager.domain.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/community-center/building-manager/src/main/java" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/community-center/building-manager/src/main/java" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/community-center/building-manager/src/main/java" />
+                  <option name="xmlPackage" value="mappers" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/community-center/building-manager/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="cart-center">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.xiaojun.cartcenter.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/cart-center/src/main/java" />
+                  <option name="javaModelPacakge" value="com.xiaojun.cartcenter.domain.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/cart-center/src/main/java" />
+                  <option name="xmlPackage" value="mappers" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/cart-center/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="user-center">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.xiaojun.usercenter.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/user-center/src/main/java" />
+                  <option name="javaModelPacakge" value="com.xiaojun.usercenter.domain.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/user-center/src/main/java" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/user-center/src/main/java" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/user-center/src/main/java" />
+                  <option name="xmlPackage" value="mappers" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/user-center/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="db_building:business_building_room">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="BusinessBuildingRoom" />
+                  <option name="moduleName" value="building-manager" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_building:business_building_unit">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="BusinessBuildingUnit" />
+                  <option name="moduleName" value="building-manager" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_building:business_floor">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="BusinessFloor" />
+                  <option name="moduleName" value="building-manager" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_cart:business_owner_car">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="BusinessOwnerCar" />
+                  <option name="moduleName" value="cart-center" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_cart:business_parking_space">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="BusinessParkingSpace" />
+                  <option name="moduleName" value="cart-center" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="db_user:business_user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="BusinessUser" />
+                  <option name="moduleName" value="user-center" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="useLomBokOnModel" value="true" />
+        <option name="xmlMapperPackage" value="mappers" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/cart-center/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
